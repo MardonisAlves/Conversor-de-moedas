@@ -48,7 +48,7 @@ class AppRoutes extends Config
 
     protected static function configureTwig()
     {
-       $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . './../../public/view');
+       $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . './../../src/view');
        $twig = new Twig($loader, [
            'cache' => false,
        ]);
@@ -61,6 +61,11 @@ class AppRoutes extends Config
         $this->app->get('/', function ($request, $response) {
             $homeControler = new HomeController($request, $response, self::configureTwig() );
             return $homeControler->home();
+        });
+
+        $this->app->post('/convert', function ($request, $response) {
+            $homeControler = new HomeController($request, $response, self::configureTwig() );
+            return $homeControler->convert();
         });
     }
 }

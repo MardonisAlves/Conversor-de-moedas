@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Principais Cotaçoes</title> 
-    <link rel="stylesheet" href="style/style.css"> 
+    <link rel="stylesheet" href="./style/style.css"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-  
+
 </body>
 </html>
 <body>
@@ -14,7 +14,7 @@
 <?php include 'conversor.php'; ?>
 <div class="image-container">
             <img src="./img/womanread.png" alt="Imagem de leitura">
-        </div>
+</div>
 <div class="content">
 
     <div class="container">

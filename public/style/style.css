@@ -2,13 +2,7 @@ body {
     background-color: #1A1A1B;
     color: #EDE68A;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+
 }
 
 .image-container {
@@ -85,3 +79,4 @@ a {
     text-decoration: none;
     color: #EDE68A;
 }
+
